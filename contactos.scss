@@ -1,0 +1,137 @@
+// Variables de color
+$color1: rgba(2, 0, 11, 0.995);
+$color2: rgb(188, 148, 28);
+$color3: rgb(255, 255, 255);
+$color4: rgb(23, 23, 24);
+$color5: rgba(171, 171, 169, 0.641);
+$color6: rgb(38, 38, 37);
+$color7: rgb(255, 0, 0);
+$size1: 50px;
+$size2: 20px;
+$size3: 30px;
+$size4: 10px;
+
+// Estilos para el cuerpo
+body {
+    background-image: url(./img/www.avif);
+    background-size: 100%; 
+    background-position: center center; 
+    background-repeat: no repeat;
+    backdrop-filter: blur(4px);
+}
+
+// Estilos para el logo
+.logo {
+    height: $size1;
+}
+
+// Estilos para la barra de navegación
+.navbar {
+    background-color: $color1;
+    padding: $size3; 
+}
+
+// Estilos para los enlaces de navegación
+.nav-link {
+    color: $color2 !important;
+}
+
+// Estilos para los títulos h2
+h2 {
+    color: $color2;
+    -webkit-text-stroke: 1px $color6;
+    font-size: 29px;
+}
+
+// Estilos para los títulos h3
+h3 {
+    color: $color2;
+    -webkit-text-stroke: 1px $color6;
+}
+
+// Estilos para los párrafos
+p {
+    color: $color3;
+    font-size: $size2;
+    text-align: end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+// Estilos para los párrafos dentro del pie de página
+footer p {
+    color: $color2;
+    text-align: end;
+    font-family: fantasy;
+}
+
+// Estilos para el pie de página
+footer {
+    background-color: $color4;
+    padding: $size3 0;
+    text-align: right;
+}
+
+// Estilos para los títulos h1
+h1 {
+    color: $color2;
+    text-shadow: $size4 $size4 25px $color1;
+    -webkit-text-stroke: 1px $color1;
+    font-size: 49px;
+    animation: slide-in 2s ease forwards;
+}
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%); // Iniciar la animación desde arriba
+    }
+    100% {
+        transform: translateY(0); // Terminar la animación en su posición original
+    }
+}
+
+// Estilos para los enlaces de redes sociales en el pie de página
+.redes {
+    text-align: center;
+}
+
+footer .redes a {
+    color: $color5;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.tituloRedes {
+    color: $color5;
+}
+
+// Estilos para los párrafos dentro del contenedor
+.container p {
+    text-align: left;
+}
+
+.tituloRedes {
+    text-align: center;
+}
+
+// Estilos para los enlaces en el cuerpo
+body a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: $color6;
+    font-size: 18px;
+}
+
+// Estilos para los enlaces de navegación al pasar el cursor por encima
+nav a:hover {
+    color: $color3 !important;
+}
+
+// Estilos para los enlaces dentro de los párrafos
+p a {
+    color: $color3;
+}
+
+// Estilos para los enlaces dentro de los párrafos al pasar el cursor por encima
+p a:hover {
+    color: $color7;
+}

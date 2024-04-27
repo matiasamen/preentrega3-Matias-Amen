@@ -1,0 +1,110 @@
+body {
+  background-image: url(./img/www.avif);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no repeat;
+  backdrop-filter: blur(4px);
+}
+
+.logo {
+  height: 50px;
+}
+
+.navbar {
+  background-color: rgba(2, 0, 11, 0.995);
+  padding: 30px;
+}
+
+.nav-link {
+  color: rgb(188, 148, 28) !important;
+}
+
+h2 {
+  color: rgb(188, 148, 28);
+  -webkit-text-stroke: 1px rgb(38, 38, 37);
+  font-size: 29px;
+}
+
+h3 {
+  color: rgb(188, 148, 28);
+  -webkit-text-stroke: 1px rgb(38, 38, 37);
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: end;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+footer p {
+  color: rgb(188, 148, 28);
+  text-align: end;
+  font-family: fantasy;
+}
+
+footer {
+  background-color: rgb(23, 23, 24);
+  padding: 30px 0;
+  text-align: right;
+}
+
+h1 {
+  color: rgb(188, 148, 28);
+  text-shadow: 10px 10px 25px rgba(2, 0, 11, 0.995);
+  -webkit-text-stroke: 1px rgba(2, 0, 11, 0.995);
+  font-size: 49px;
+  animation: slide-in 2s ease forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.redes {
+  text-align: center;
+}
+
+footer .redes a {
+  color: rgba(171, 171, 169, 0.641);
+  text-decoration: none;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.tituloRedes {
+  color: rgba(171, 171, 169, 0.641);
+}
+
+.container p {
+  text-align: left;
+}
+
+.tituloRedes {
+  text-align: center;
+}
+
+body a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+  color: rgb(38, 38, 37);
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: rgb(255, 255, 255) !important;
+}
+
+p a {
+  color: rgb(255, 255, 255);
+}
+
+p a:hover {
+  color: rgb(255, 0, 0);
+}
+
+/*# sourceMappingURL=contactos.css.map */

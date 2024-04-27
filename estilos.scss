@@ -1,0 +1,165 @@
+/* Colores */
+$color1: rgb(2, 0, 11);
+$color2: rgb(188, 148, 28);
+$color3: rgb(177, 176, 176);
+$color4: rgb(23, 23, 24);
+$color5: rgba(171, 171, 169, 0.641);
+$color6: #ffffff;
+$color7: #0000f8;
+$size1: 50px;
+$size2: 20px;
+$size3: 30px;
+$size4: 10px;
+
+/* Estilos generales del cuerpo */
+/*body {
+    background-image: url(./img/360_F_124760316_HWHuMfW85Ov0wqQ1iXu3ztKCTryKC30J.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: repeat;
+}/*
+
+/* Estilos para el logo */
+.logo {
+    height: $size1;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: $color1;
+    padding: $size3;
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-link {
+    color: $color2 !important;
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    position: relative;
+}
+
+/* Estilos generales para los pseudoelementos ::after y ::before */
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+
+/* Estilos para los elementos del carrusel */
+.carouselitem {
+    width: 70px !important;
+    height: 100px !important;
+}
+
+/* Estilos para los servicios */
+.services-section {
+    padding: $size1 0;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    width: 300px;
+    margin: $size2;
+    padding: $size2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px $color3;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: $color4;
+    padding: $size3 0;
+    text-align: right;
+}
+
+/* Estilos para los párrafos */
+p {
+    color: $color2;
+}
+
+/* Estilos específicos para elementos dentro de .carousel-caption */
+.carousel-caption h5 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 300px;
+}
+
+.carousel-caption p {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+h5 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: $size2;
+}
+
+/* Estilos para los enlaces de redes sociales en el pie de página */
+.redes {
+    text-align: center;
+}
+
+footer .redes a {
+    color: $color5;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.tituloRedes {
+    color: $color5;
+}
+
+/* Estilos para los párrafos dentro del contenedor */
+.container p {
+    text-align: left;
+}
+
+/* Estilos adicionales para el pie de página */
+footer p {
+    color: $color2;
+    font-size: 17px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+/* Estilos para los enlaces en el cuerpo */
+body a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Estilos para los párrafos dentro del carrusel */
+.carousel p {
+    color: $color6;
+    box-shadow: 0px 0px $size4 $color6;
+    -webkit-text-stroke: 0.4px $color7;
+}
+
+/* Estilos para los enlaces de navegación al pasar el cursor por encima */
+nav a:hover {
+    color: $color6 !important;
+}
+
+
+

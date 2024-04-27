@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* Colores */
+/* Estilos generales del cuerpo */
+body {
+  background-image: url(./img/360_F_124760316_HWHuMfW85Ov0wqQ1iXu3ztKCTryKC30J.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+/* Estilos para el logo */
+.logo {
+  height: 50px;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: rgb(2, 0, 11);
+  padding: 30px;
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-link {
+  color: rgb(188, 148, 28) !important;
+}
+
+/* Estilos para el carrusel */
+.carousel {
+  position: relative;
+}
+
+/* Estilos generales para los pseudoelementos ::after y ::before */
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/* Estilos para los elementos del carrusel */
+.carouselitem {
+  width: 70px !important;
+  height: 100px !important;
+}
+
+/* Estilos para los servicios */
+.services-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(177, 176, 176);
+}
+
+.service img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: rgb(23, 23, 24);
+  padding: 30px 0;
+  text-align: right;
+}
+
+/* Estilos para los párrafos */
+p {
+  color: rgb(188, 148, 28);
+}
+
+/* Estilos específicos para elementos dentro de .carousel-caption */
+.carousel-caption h5 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 300px;
+}
+
+.carousel-caption p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los enlaces de redes sociales en el pie de página */
+.redes {
+  text-align: center;
+}
+
+footer .redes a {
+  color: rgba(171, 171, 169, 0.641);
+  text-decoration: none;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.tituloRedes {
+  color: rgba(171, 171, 169, 0.641);
+}
+
+/* Estilos para los párrafos dentro del contenedor */
+.container p {
+  text-align: left;
+}
+
+/* Estilos adicionales para el pie de página */
+footer p {
+  color: rgb(188, 148, 28);
+  font-size: 17px;
+  text-align: center;
+  font-family: fantasy;
+}
+
+/* Estilos para los enlaces en el cuerpo */
+body a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* Estilos para los párrafos dentro del carrusel */
+.carousel p {
+  color: #ffffff;
+  box-shadow: 0px 0px 10px #ffffff;
+  -webkit-text-stroke: 0.4px #0000f8;
+}
+
+/* Estilos para los enlaces de navegación al pasar el cursor por encima */
+nav a:hover {
+  color: #ffffff !important;
+}
+
+/*# sourceMappingURL=estiilos.css.map */

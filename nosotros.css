@@ -1,0 +1,135 @@
+body {
+  background-image: url(./img/www.avif);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no repeat;
+  backdrop-filter: blur(4px);
+}
+
+.logo {
+  height: 50px;
+}
+
+.navbar {
+  background-color: rgba(2, 0, 11, 0.995);
+  padding: 30px;
+}
+
+.nav-link {
+  color: rgb(188, 148, 28) !important;
+}
+
+.services-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(177, 176, 176, 0.233);
+}
+
+.service img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+h2 {
+  color: rgb(188, 148, 28);
+  text-shadow: 10px 10px 25px rgb(195, 195, 6);
+  -webkit-text-stroke: 2px rgb(34, 34, 1);
+}
+
+h3 {
+  color: rgb(188, 148, 28);
+  -webkit-text-stroke: 1px rgb(34, 34, 1);
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  text-align: center;
+}
+
+footer p {
+  color: rgb(188, 148, 28);
+  text-align: center;
+  font-family: fantasy;
+}
+
+footer {
+  background-color: rgb(23, 23, 24);
+  padding: 30px 0;
+  text-align: right;
+}
+
+.contenedor {
+  overflow: hidden;
+}
+
+.imagen1 {
+  width: 400px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+.imagen2 {
+  width: 400px;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+}
+
+.imagen {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 70px;
+}
+
+.contenedor p {
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.851);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  -webkit-text-stroke: 0.1px rgb(46, 45, 45);
+  font-weight: bold;
+  justify-content: center;
+}
+
+body a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+}
+
+.redes {
+  text-align: center !important;
+}
+
+footer .redes a {
+  color: rgba(171, 171, 169, 0.641);
+  text-decoration: none;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.tituloRedes {
+  color: rgba(171, 171, 169, 0.641);
+}
+
+nav a:hover {
+  color: white !important;
+}
+
+/*# sourceMappingURL=nosotros.css.map */

@@ -1,0 +1,175 @@
+// Variables de color
+$color1: rgb(0, 0, 0);
+$color2: rgb(188, 148, 28);
+$color3: rgb(124, 115, 115);
+$color4: rgb(23, 23, 24);
+$color5: #c3c306;
+$color6: rgba(171, 171, 169, 0.641);
+$color7: rgb(255, 255, 255);
+$color8: rgb(82, 81, 81);
+$size1: 50px;
+$size2: 20px;
+$size3: 30px;
+$size4: 10px;
+
+// Estilos para el cuerpo
+body {
+    background-image: url(./img/www.avif);
+    background-size: 100%; 
+    background-position: center center; 
+    background-repeat: repeat;
+    backdrop-filter: blur(4px);
+}
+
+// Estilos para el logo
+.logo {
+    height: $size1;
+}
+
+// Estilos para la barra de navegación
+.navbar {
+    background-color: $color1;
+    padding: $size3; 
+}
+
+// Estilos para los enlaces de navegación
+.nav-link {
+    color: $color2 !important;
+}
+
+// Estilos para la sección de servicios
+.services-section {
+    padding: $size1 0;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    width: 300px;
+    margin: $size2;
+    padding: $size2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(177, 176, 176, 0.479);
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+// Estilos para títulos h2
+h2 {
+    color: $color2;
+    text-shadow: $size4 $size4 25px $color5;
+    -webkit-text-stroke: 2px $color4;
+}
+
+// Estilos para títulos h3
+h3 {
+    color: $color2;
+    -webkit-text-stroke: 1px $color4;
+}
+
+// Estilos para párrafos
+p {
+    color: $color3;
+    font-size: $size2;
+}
+
+// Estilos para párrafos dentro del pie de página
+footer p {
+    color: $color2;
+    font-size: 17px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+// Estilos para el pie de página
+footer {
+    background-color: $color4;
+    padding: $size3 0;
+    text-align: right;
+}
+
+// Estilos para las imágenes
+.contenedor {
+    overflow: hidden;
+}
+
+.imagen1 {
+    width: 300px;
+    height: auto;
+    float: left; 
+    margin-right: $size2;
+}
+
+.imagen2 {
+    width: 300px;
+    height: auto;
+    float: right; 
+    margin-left: $size2;
+}
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin-bottom: 70px; 
+}
+
+// Estilos adicionales para párrafos
+.contenedor p {
+    margin-left: $size4; 
+    color: $color7;
+    font-size: 1.3rem;
+    font-weight: bold;
+    justify-content: center;
+    -webkit-text-stroke: 1.4px $color8;
+}
+
+p strong {
+    color: $color2;
+}
+
+// Estilos para enlaces en el cuerpo
+body a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+// Estilos para enlaces de redes sociales en el pie de página
+.redes {
+    text-align: center;
+}
+
+footer .redes a {
+    color: $color6;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.tituloRedes {
+    color: $color6;
+}
+
+// Estilos para enlaces de navegación al pasar el cursor por encima
+nav a:hover {
+    color: $color7 !important;
+}
+
+// Media query para pantallas pequeñas
+@media (max-width: 575px) {
+    .navbar {
+        padding: $size4;
+    }
+    .contenedor {
+        width: calc(100% - 30px);
+        margin: $size4;
+    }
+}
