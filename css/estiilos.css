@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /* Colores */
 /* Estilos generales del cuerpo */
-body {
-  background-image: url(./img/360_F_124760316_HWHuMfW85Ov0wqQ1iXu3ztKCTryKC30J.jpg);
-  background-size: contain;
-  background-position: center center;
-  background-repeat: repeat;
-}
+/*body {
+    background-image: url(./img/360_F_124760316_HWHuMfW85Ov0wqQ1iXu3ztKCTryKC30J.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: repeat;
+}/*
 
 /* Estilos para el logo */
 .logo {

@@ -1,8 +1,8 @@
 body {
-  background-image: url(./img/www.avif);
+  background-image: url(../img/www.avif);
   background-size: 100%;
   background-position: center center;
-  background-repeat: no repeat;
+  background-repeat: repeat;
   backdrop-filter: blur(4px);
 }
 
@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-  background-color: rgba(2, 0, 11, 0.995);
+  background-color: rgb(0, 0, 0);
   padding: 30px;
 }
 
@@ -35,7 +35,7 @@ body {
   margin: 20px;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(177, 176, 176, 0.233);
+  box-shadow: 0 0 10px rgba(177, 176, 176, 0.479);
 }
 
 .service img {
@@ -45,23 +45,23 @@ body {
 
 h2 {
   color: rgb(188, 148, 28);
-  text-shadow: 10px 10px 25px rgb(195, 195, 6);
-  -webkit-text-stroke: 2px rgb(34, 34, 1);
+  text-shadow: 10px 10px 25px #c3c306;
+  -webkit-text-stroke: 2px rgb(23, 23, 24);
 }
 
 h3 {
   color: rgb(188, 148, 28);
-  -webkit-text-stroke: 1px rgb(34, 34, 1);
+  -webkit-text-stroke: 1px rgb(23, 23, 24);
 }
 
 p {
-  color: rgb(0, 0, 0);
-  font-size: 17px;
-  text-align: center;
+  color: rgb(124, 115, 115);
+  font-size: 20px;
 }
 
 footer p {
   color: rgb(188, 148, 28);
+  font-size: 17px;
   text-align: center;
   font-family: fantasy;
 }
@@ -77,14 +77,14 @@ footer {
 }
 
 .imagen1 {
-  width: 400px;
+  width: 300px;
   height: auto;
   float: left;
   margin-right: 20px;
 }
 
 .imagen2 {
-  width: 400px;
+  width: 300px;
   height: auto;
   float: right;
   margin-left: 20px;
@@ -99,13 +99,15 @@ footer {
 
 .contenedor p {
   margin-left: 10px;
-  color: rgba(255, 255, 255, 0.851);
-  font-size: 1.2rem;
-  line-height: 1.6;
-  margin-bottom: 30px;
-  -webkit-text-stroke: 0.1px rgb(46, 45, 45);
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
   font-weight: bold;
   justify-content: center;
+  -webkit-text-stroke: 1.4px rgb(82, 81, 81);
+}
+
+p strong {
+  color: rgb(188, 148, 28);
 }
 
 body a {
@@ -114,7 +116,7 @@ body a {
 }
 
 .redes {
-  text-align: center !important;
+  text-align: center;
 }
 
 footer .redes a {
@@ -129,7 +131,17 @@ footer .redes a {
 }
 
 nav a:hover {
-  color: white !important;
+  color: rgb(255, 255, 255) !important;
 }
 
-/*# sourceMappingURL=nosotros.css.map */
+@media (max-width: 575px) {
+  .navbar {
+    padding: 10px;
+  }
+  .contenedor {
+    width: calc(100% - 30px);
+    margin: 10px;
+  }
+}
+
+/*# sourceMappingURL=empresa.css.map */
