@@ -171,4 +171,16 @@ nav a:hover {
     }
 }
 
+@media (max-width: 319.98px) {
+    .carousel-caption {
+        display: none !important;
+        /* Oculta el carousel-caption en pantallas más pequeñas que 320px */
+    }
+}
 
+@media (min-width: 320px) {
+    .carousel-caption {
+        display: block !important;
+        /* Muestra el carousel-caption en pantallas de 320px en adelante */
+    }
+}
