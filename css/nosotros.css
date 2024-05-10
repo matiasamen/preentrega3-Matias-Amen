@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-image: url(../img/www.avif);
   background-size: 100%;
@@ -130,6 +131,33 @@ footer .redes a {
 
 nav a:hover {
   color: white !important;
+}
+
+/* Estilos para pantallas de 576px a 701px */
+@media screen and (min-width: 576px) and (max-width: 701px) {
+  .navbar {
+    overflow: hidden;
+    /* Evitar que el contenido desborde del navbar */
+    padding-right: 20px;
+    /* Agregar espacio al lado derecho del navbar */
+    padding-left: 20px;
+    /* Agregar espacio al lado izquierdo del navbar */
+  }
+  body {
+    background-size: cover;
+    /* Ajustar el tamaño del background para cubrir todo el cuerpo */
+    background-attachment: fixed;
+    /* Fijar el background para que no se desplace con el contenido */
+  }
+}
+/* Estilos para pantallas de 577px a 721px */
+@media screen and (min-width: 576px) and (max-width: 721px) {
+  .navbar-nav .nav-link {
+    font-size: 9.2px;
+    /* Reducir el tamaño de la fuente */
+    padding: 0 5px;
+    /* Reducir el espaciado horizontal */
+  }
 }
 
 /*# sourceMappingURL=nosotros.css.map */

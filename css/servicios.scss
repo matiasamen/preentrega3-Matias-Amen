@@ -132,3 +132,27 @@ nav a:hover {
         margin: $size4;
     }
 }
+/* Estilos para los servicios en pantallas de 765px a 1000px */
+@media screen and (min-width: 765px) and (max-width: 1000px) {
+    .services-container {
+        flex-direction: column;
+        /* Cambiar a dos filas en sentido vertical */
+    }
+
+    .service {
+        width: 100%;
+        /* Ocupar todo el ancho disponible */
+        margin-bottom: 20px;
+        /* Espacio entre los elementos */
+    }
+}
+
+/* Estilos para pantallas de 577px a 721px */
+@media screen and (min-width: 576px) and (max-width: 721px) {
+    .navbar-nav .nav-link {
+        font-size: 9.2px;
+        /* Reducir el tamaño de la fuente */
+        padding: 0 5px;
+        /* Reducir el espaciado horizontal */
+    }
+}

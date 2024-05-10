@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-image: url(../img/www.avif);
   background-size: 100%;
@@ -105,6 +106,63 @@ p a {
 
 p a:hover {
   color: rgb(255, 0, 0);
+}
+
+/* Estilos para pantallas de 320px a 575px */
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  .navbar {
+    padding: 20px;
+    /* Reducir el espacio alrededor de la barra de navegación */
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 414px) and (min-width: 320px) and (max-width: 414px) {
+  iframe {
+    width: 100%;
+    /* Ajustar el ancho al 100% del contenedor */
+    height: 200px;
+    /* Establecer una altura fija o ajustar según sea necesario */
+    max-width: 100%;
+    /* Limitar el ancho máximo al 100% del contenedor */
+    max-height: 300px;
+    /* Limitar la altura máxima según sea necesario */
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  main {
+    padding-top: 50px;
+    /* Ajustar espacio entre la barra de navegación y el contenido */
+  }
+}
+/* Estilos para pantallas de 576px a 999px */
+@media screen and (min-width: 576px) and (max-width: 999px) {
+  .navbar {
+    padding: 15px;
+    /* Ajustar el espaciado alrededor de la barra de navegación */
+  }
+  main {
+    padding-top: 70px;
+    /* Ajustar espacio entre la barra de navegación y el contenido */
+  }
+}
+/* Estilos para pantallas de 577px a 721px */
+@media screen and (min-width: 576px) and (max-width: 721px) {
+  .navbar-nav .nav-link {
+    font-size: 9.2px;
+    /* Reducir el tamaño de la fuente */
+    padding: 0 5px;
+    /* Reducir el espaciado horizontal */
+  }
+}
+/* Estilos para pantallas de 1000px a 1200px */
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .navbar {
+    padding: 20px;
+    /* Ajustar el espaciado alrededor de la barra de navegación */
+  }
+  main {
+    padding-top: 80px;
+    /* Ajustar espacio entre la barra de navegación y el contenido */
+  }
 }
 
 /*# sourceMappingURL=contactos.css.map */

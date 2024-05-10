@@ -15,8 +15,8 @@ $size4: 10px;
 // Estilos para el cuerpo
 body {
     background-image: url(../img/www.avif);
-    background-size: 100%; 
-    background-position: center center; 
+    background-size: 100%;
+    background-position: center center;
     background-repeat: repeat;
     backdrop-filter: blur(4px);
 }
@@ -29,7 +29,7 @@ body {
 // Estilos para la barra de navegación
 .navbar {
     background-color: $color1;
-    padding: $size3; 
+    padding: $size3;
 }
 
 // Estilos para los enlaces de navegación
@@ -104,27 +104,27 @@ footer {
 .imagen1 {
     width: 300px;
     height: auto;
-    float: left; 
+    float: left;
     margin-right: $size2;
 }
 
 .imagen2 {
     width: 300px;
     height: auto;
-    float: right; 
+    float: right;
     margin-left: $size2;
 }
 
 .imagen {
     max-width: 100%;
     height: auto;
-    display: block; 
-    margin-bottom: 70px; 
+    display: block;
+    margin-bottom: 70px;
 }
 
 // Estilos adicionales para párrafos
 .contenedor p {
-    margin-left: $size4; 
+    margin-left: $size4;
     color: $color7;
     font-size: 1.3rem;
     font-weight: bold;
@@ -168,8 +168,19 @@ nav a:hover {
     .navbar {
         padding: $size4;
     }
+
     .contenedor {
         width: calc(100% - 30px);
         margin: $size4;
+    }
+}
+
+/* Estilos para pantallas de 577px a 721px */
+@media screen and (min-width: 576px) and (max-width: 721px) {
+    .navbar-nav .nav-link {
+        font-size: 9.2px;
+        /* Reducir el tamaño de la fuente */
+        padding: 0 5px;
+        /* Reducir el espaciado horizontal */
     }
 }

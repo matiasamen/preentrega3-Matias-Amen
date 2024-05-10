@@ -149,4 +149,14 @@ nav a:hover {
   color: #ffffff !important;
 }
 
+/* Estilos para pantallas de 577px a 721px */
+@media screen and (min-width: 576px) and (max-width: 721px) {
+  .navbar-nav .nav-link {
+    font-size: 9.2px;
+    /* Reducir el tamaño de la fuente */
+    padding: 0 5px;
+    /* Reducir el espaciado horizontal */
+  }
+}
+
 /*# sourceMappingURL=estiilos.css.map */
